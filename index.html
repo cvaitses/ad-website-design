@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>Simple Tailwind Starter</title>
 </head>
@@ -31,7 +34,7 @@
         <!-- right menu -->
         <div class="hidden items-center space-x-6 text-oceanblue md:flex">
           <a href="" class="hover:text-orange font-bold">Sign-Up</a>
-          <a href="" class="px-8 py-3 font-bold text-white bg-orange rounded-full hover:opacity-70">Login</a>
+          <a href="" class="px-8 py-3 font-bold text-white bg-orange rounded-full hover:opacity-70 ">Login</a>
         </div>
   
         <!-- hamburger menu -->
@@ -53,15 +56,44 @@
         </div>
       </div>
     </nav>
-  <!-- about section -->
+  <!-- about section 1 -->
   <div class="flex flex-col md:flex-row">
     <!-- title -->
-    <div class="md:w-[40vw] h-auto bg-oceanblue">
-      <p class="text-left py-28 px-14 text-6xl uppercase">CUSTOM WEB DESIGN.</p>
+    <div class="md:w-[40vw] h-auto bg-teal">
+      <h1 class="text-left py-24 md:py-36 px-14 text-4xl uppercase break-words">CUSTOM WEB DESIGN & HANDS ON DEVELOPMENT.</h1>
     </div>
     <!-- description -->
-    <div class="bg-seafoamLight h-auto md:w-[60vw] text-left py-20 px-20 text-xl text-">
-      <p>Amlaw Design is a full service web development team that designs, builds, deploys, and hosts websites for small to mid sized businesses in the Boston area. We deliver websites suitable for e-commerce (with full credit card integration) that are custum built to suit our clients needs.</p>
+    <div class="bg-seafoamLight h-auto md:w-[60vw] text-left py-20 md:py-26 px-10 md:px-20 text-xl font-light">
+      <h2 class="text-3xl text-orange">About Us</h2>
+      <p class="text-justify">Amlaw Design is a full service web development team that designs, builds, deploys, and hosts websites for small to mid sized businesses in the Boston area. We deliver websites suitable for e-commerce (with full credit card integration) that are custum built to suit our clients needs. Our websites incorporate custom content management systems (cms) so that business owners can update and modify their websites themselves without any need to understand the technologies used to create them.</p>
+    </div>
+  </div>
+
+  <!-- about section 2 -->
+  <div class="flex flex-col md:flex-row-reverse">
+    <!-- title -->
+    <div class="md:w-[35vw] h-auto bg-orange">
+      <h1 class="py-24 md:py-44 px-14 text-4xl uppercase break-words text-justify">Modern technology.</h1>
+    </div>
+    <!-- description -->
+    <div class="bg-white h-auto md:w-[65vw] text-left py-20 md:py-26 px-10 md:px-20 text-xl font-light">
+      <h2 class="text-3xl text-orange">Technologies Used</h2>
+      <p class="text-justify">Amlaw Design uses the latest technologies and stays up to date to keep our websites optimized for user experience, functionality, and search engine optimization (seo). Depending on specific needs we develop using industry standard languages and frameworks such as PHP, Python, Django, MySQL, PostgreSQL, Javascript, Bootstrap, Tailwind, CSS, and HTML. Our sites are prepared to be deployed on any server that implements the latest technologies such as Docker and Kubernetes. All of these technologies allow us to build up to date websites with full functionality and security.</p>
+    </div>
+  </div>
+
+  <!-- about section 3 -->
+  <div class="flex flex-col">
+    <!-- title -->
+    <div class="md:w-auto h-auto bg-seafoamLight">
+      <h1 class="text-left py-24 md:py-12 px-14 text-4xl uppercase break-words">Meet our team of developers and designers:</h1>
+    </div>
+    <!-- description -->
+    <div class="bg-white h-auto md:w-auto text-left py-20 md:py-26 px-10 md:px-20 text-xl font-light">
+      <h2 class="text-3xl text-orange">Winter Amlaw</h2>
+      <p class="text-justify mb-10">(Front-End Specialist): Winter specializes in getting websites to look and feel the way our clients want them to. Using primarily Javascript, CSS, and HTML, Winter has developed a keen sense of what needs to be done on the front-end. Winter is always keeping up to date on front-end technologies and frameworks such as Vue and Tailwind to further enhance our clients needs. </p>
+      <h2 class="text-3xl text-orange">Dave Amlaw</h2>
+      <p class="text-justify">(Front and Back-End): David has over 15 years of experience building websites and is the glue so to speak of Amlaw Design. David works primarily in Python and Django as well as having a good understanding of how front-end technologies can best be implemented. With these skills and with the help of Winter and Dave, there is rarely a design concept that he cannot tackle. </p>
     </div>
   </div>
 </body>

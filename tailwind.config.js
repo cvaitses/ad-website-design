@@ -4,12 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'seafoam': '#bfd5ca',
-        'seafoamLight': '#d2e0d9',
-        'orange': '#e8891d',
-        'oceanblue': '#006373',
-        'burntorange': '#b35a22',
-        'teal': '#05a3a4',
+        seafoam: "#bfd5ca",
+        seafoamLight: "#d2e0d9",
+        orange: "#e8891d",
+        oceanblue: "#006373",
+        burntorange: "#b35a22",
+        teal: "#05a3a4",
+      },
+      fontFamily: {
+        sans: ["Roboto", "sans-serif"],
       },
     },
   },
