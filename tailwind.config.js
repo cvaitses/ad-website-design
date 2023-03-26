@@ -4,12 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        seafoam: "#bfd5ca",
-        seafoamLight: "#d2e0d9",
-        orange: "#e8891d",
-        oceanblue: "#006373",
-        burntorange: "#b35a22",
-        teal: "#05a3a4",
+        softblueLight: "#CDE2EB",
+        orangeLight: "#FFA566",
+        oceanblueDark: "#012442",
+        orange: "#E38664",
+        softblue: "#5BA0BF",
       },
       fontFamily: {
         sans: ["Roboto", "sans-serif"],
